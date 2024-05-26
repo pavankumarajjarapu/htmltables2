@@ -1,0 +1,39 @@
+table,th,td{
+    border: 5px groove yellowgreen;
+    border-spacing: 20px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    
+}
+img{
+    height: 200px;
+    width: 300px;
+    
+}
+th{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(104, 10, 185);
+    text-align: left;
+}
+td{
+    font-family:initial;
+    font-size: 2rem;
+    color: rgba(241, 49, 200, 0.971);
+
+}
+h1{
+    font-family: cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: burlywood;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+tr:hover{
+    background-color: brown;
+}
+/* td:nth-child(odd){
+    background-color: red;
+} */
